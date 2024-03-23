@@ -17,7 +17,6 @@ header {
 
 
 #contenedorPracticeAutor{
-    border: 2px solid white;
     width: 725px;
     height: 746px;
     border-left: 2px solid white;
@@ -87,18 +86,16 @@ header {
 
 #contenedorAutorAvatar {
     display: flex;
-
     position: relative;
     bottom: 590px;
 }
 
 #Autor {
     color:yellow;
-    font-size: 43.493px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    font-family: "Inter", sans-serif;
     font-family: "Space Grotesk", sans-serif;
     text-decoration-line: underline;
 
@@ -115,6 +112,39 @@ header {
     position: relative;
     bottom: 154px;
 }
+
+#Cuatro {
+    
+    font-family: "Sevillana", cursive;
+    font-style: normal; 
+    font-size: 130px;
+    color: #FFFFFF;
+    font-weight: 400px;
+    line-height: normal;
+    
+}
+
+ #contenedorNumero4 {
+    border: 2px solid white;
+    width: 420px;
+    height: 526px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+#contenedorNumero4 img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    
+}
+
+ #contenedorPalabras4 {
+    display: flex;
+     
+}
+
 
 .cajaRosada {
     width: 781px;
