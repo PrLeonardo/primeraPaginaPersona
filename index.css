@@ -79,7 +79,6 @@ header {
     width: 55px;
     height: 55px;
     margin-left: 17px;
-
     position: relative;
     bottom: 490px;
 }
@@ -117,27 +116,25 @@ header {
     
     font-family: "Sevillana", cursive;
     font-style: normal; 
-    font-size: 130px;
+    font-size: 190px;
     color: #FFFFFF;
     font-weight: 400px;
     line-height: normal;
+    position: absolute;
+    top: 440px;
+    left: 850px;
     
 }
 
- #contenedorNumero4 {
-    border: 2px solid white;
-    width: 420px;
-    height: 526px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
+#imagen1 {
+    position: absolute;
+    top: 500px;
+    left: 780px;
 }
-
-#contenedorNumero4 img {
-    width: 70px;
-    height: 70px;
-    display: flex;
-    
+#imagen2 {
+    position: absolute;
+    top: 500px;
+    left: 980px;
 }
 
  #contenedorPalabras4 {
@@ -145,6 +142,36 @@ header {
      
 }
 
+#estrella img {
+    position: absolute;
+    top: 950px;
+    left: 1700px;
+
+}
+
+#Newbies {
+    color:white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Space Grotesk", sans-serif;
+    position: absolute;
+    top: 680px;
+    left: 1100px;
+}
+
+#Designers {
+    color:white;
+    font-size: 173px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Babylonica";
+    position: absolute;
+    top: 500px;
+    left: 900px;
+}
 
 .cajaRosada {
     width: 781px;
